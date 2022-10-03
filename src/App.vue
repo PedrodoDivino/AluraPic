@@ -5,7 +5,7 @@
       seach
       class="filtro"
       placeholder="filtre por titulo"
-      v-on:input="filtro = $event.target.value"
+      @:input="filtro = $event.target.value"
     />
     <h1 class="centralizado">{{ titulo }}</h1>
 
